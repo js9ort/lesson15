@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello DOM & Events</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />	
+  </head>
+  <body>
+    
+	<div class="container mt-5 mb-5">
+		<h1>Адресная книга</h1>	
+		<div class="row">
+		  <div class="col-md-6">
+			<div class="form-group">
+			  <label>Поиск</label>
+			  <input type="text" class="form-control" id="search" placeholder="Поиск...">
+			</div>
+		  </div>
+		</div>
+		<div class="row border-bottom pb-2 mt-4">
+			<div class="col-3"><strong>Имя</strong></div>
+			<div class="col-3"><strong>Телефон</strong></div>
+			<div class="col-3"><strong>Адрес</strong></div>
+		</div>
+		
+		<div class="cards">
+		
+			<!-- One Card -->
+			<div class="row border-bottom pb-2 mt-2">
+				<div class="col-3">Иван</div>
+				<div class="col-3">+380675558823</div>
+				<div class="col-3">London, United Kingdom</div>
+			</div>
+			<!-- /One Card -->
+
+		</div>
+		
+	</div>
+  </body>
+</html>
